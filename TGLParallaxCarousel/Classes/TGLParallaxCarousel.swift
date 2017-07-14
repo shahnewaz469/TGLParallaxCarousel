@@ -5,7 +5,7 @@
 //
 //  Created by Matteo Tagliafico on 03/04/16.
 //  Copyright © 2016 Matteo Tagliafico. All rights reserved.
-//
+// Forked Shah Newaz
 
 import UIKit
 
@@ -312,7 +312,6 @@ open class TGLParallaxCarousel: UIView {
                     if loopFinished { return }
                 }
             }
-            
             
             item.xDisp = item.xDisp - offset
             item.zDisp =  -fabs(item.xDisp) * zDisplacementFactor
